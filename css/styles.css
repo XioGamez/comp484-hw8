@@ -65,6 +65,17 @@ h2 {
     background-color: #8D77AB;
 }
 
+.footer a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #BAD8B6;
+}
+
 .contact-info {
     padding: 10px;
     display: inline-block;
