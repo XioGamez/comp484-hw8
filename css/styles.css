@@ -1,0 +1,91 @@
+/* Color Palette
+# - BAD8B6
+# - E1EACD
+# - F9F6E6
+# - 8D77AB
+*/
+
+/* Global styles */
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Body text */
+body {
+    margin-top: 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+/* Header & Footer */
+.header {
+    background-color: #8D77AB;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.footer {
+    text-align: center;
+    background-color: #8D77AB;
+}
+
+.contact-info {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience */
+.work-experience {
+    background-color: #F9F6E6;
+}
+
+/* Projects */
+.projects {
+    background-color: #BAD8B6;
+}
+
+/* Education */
+.education {
+    background-color: #E1EACD;
+}
+
+/* Profile */
+.profile-img {
+    border-radius: 50%;
+    width: 100%;
+}
