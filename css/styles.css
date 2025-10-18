@@ -119,5 +119,17 @@ h2 {
 /* Profile */
 .profile-img {
     border-radius: 50%;
-    width: 100%;
+    width: 30%;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center; /* centers text vertically relative to the image */
+    gap: 50px; /* space between image and text */
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertically center the text block relative to the image */
 }
