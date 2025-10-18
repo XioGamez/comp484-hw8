@@ -41,6 +41,7 @@ body {
 
 /* Header & Footer */
 .header {
+    padding-top: 100px;
     background-color: #8D77AB;
 }
 
