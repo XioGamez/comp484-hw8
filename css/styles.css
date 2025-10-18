@@ -66,19 +66,14 @@ h2 {
 }
 
 .footer a {
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px 15px;
+    align-content: center;
+    margin: 10px;
     transition: color 0.3s ease;
+    color: #4e3273;
 }
 
 .footer a:hover {
     color: #BAD8B6;
-}
-
-.contact-info {
-    padding: 10px;
-    display: inline-block;
 }
 
 /* Navigation Bar */
@@ -117,8 +112,8 @@ h2 {
 
 /* Education */
 .education {
+    background: linear-gradient(rgba(225, 234, 205, 0.5), rgba(225, 234, 205, 0.5)), url("../images/csun.jpeg") fixed no-repeat center center;
     background-size: cover;
-    background: linear-gradient(rgba(225, 234, 205, 0.5), rgba(225, 234, 205, 0.5)), url("../images/csun.jpeg") fixed center;
 }
 
 /* Profile */
